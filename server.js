@@ -1,1 +1,1 @@
-require('derby-starter').run(__dirname+'/index.js');
+require('derby-starter').run(__dirname+'/index.js', {noRedis: true});
